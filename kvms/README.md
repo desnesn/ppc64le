@@ -73,8 +73,8 @@ Afertwards, ssh to ubuntu-vm0 and enable sudo to the ubuntu user. This is also a
 ~~~
 VM0_IP=$(virsh net-dhcp-leases default | grep ubuntu-vm0 | awk '{ print $5 }' | awk -F'/' '{ print $1 }')
 
-# Hit enter 3 times
-ssh-keygen -t rsa -b 4096
+# Create a key pair if you don't have one:
+# ssh-keygen -t rsa -b 4096
 
 ssh-copy-id -i ~/.ssh/id_rsa.pub ubuntu@$VM0_IP
 
