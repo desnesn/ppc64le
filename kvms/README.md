@@ -83,7 +83,7 @@ sudo echo "$USER ALL=(ALL:ALL) NOPASSWD: ALL" | sudo tee /etc/sudoers.d/$USER
 ~~~
 
 ## VM1 - VM40 SETUP
-Edit the script variables in the begining and run the '''./vms_setup''' script.
+Edit the script variables in the begining and run the **./vms_setup** script.
 
 This script clones the manuall installed vm0 configuration to create and customize the installation of VM1-VM40.
 
