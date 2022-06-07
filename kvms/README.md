@@ -2,6 +2,7 @@
 
 Scripts that set up and use a manual 40 KVMs ppc64le environment described hereafter:
 
+~~~
 =======
 = VM0 =
 =======
@@ -19,6 +20,7 @@ Scripts that set up and use a manual 40 KVMs ppc64le environment described herea
 10 G ram  = 400 GiB
 30G       = 1200 G
 ==============
+~~~
 
 The host has been installed with RHEL-8.6.
 The 40 VMS are installed with Ubuntu 20.04.4 LTS and will have fixed IPs on the virbr0 bridge.
